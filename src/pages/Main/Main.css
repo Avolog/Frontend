@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fafaf8;
+}
+
+.main-content {
+  margin-left: 200px;
+  flex: 1;
+  padding: 40px;
+}
+
+.content-header {
+  margin-bottom: 30px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.content-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}

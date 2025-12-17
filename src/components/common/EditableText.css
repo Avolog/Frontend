@@ -1,0 +1,57 @@
+.editable-text {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  border: 2px solid transparent;
+  display: inline-block;
+  width: auto;
+}
+
+.editable-text:hover {
+  background-color: #f0f0f0;
+  border: 2px solid #e0e0e0;
+}
+
+.editable-text-input {
+  padding: 4px 8px;
+  border: 2px solid #a8c9a8;
+  border-radius: 4px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.editable-text-input:focus {
+  border-color: #8db98d;
+}
+
+.editable-text-input.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.editable-text-input.page-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.editable-text-measure {
+  position: absolute;
+  visibility: hidden;
+  white-space: pre;
+  padding: 4px 8px;
+  pointer-events: none;
+}
+
+.editable-text-measure.page-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.editable-text-measure.page-subtitle {
+  font-size: 14px;
+}

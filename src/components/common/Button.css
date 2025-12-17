@@ -1,0 +1,25 @@
+.btn {
+  padding: 12px 32px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #f5f5f5;
+  color: #5c4033;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #e8e8e8;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #5c4033;
+  border: 1px solid #5c4033;
+}
